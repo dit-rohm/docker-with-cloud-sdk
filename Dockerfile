@@ -1,4 +1,4 @@
-FROM docker:17.10-dind
+FROM docker:17.10.0-ce
 ENV CLOUD_SDK_VERSION 174.0.0
 
 ENV PATH /google-cloud-sdk/bin:$PATH
